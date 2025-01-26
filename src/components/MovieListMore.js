@@ -18,6 +18,7 @@ export default class MovieListMore extends Component {
     this.el.textContent = 'View more...'
 
     this.el.addEventListener('click', async () => {
+      this.el.classList.add('hide') // 로딩중일 때 추가 검색 가능한 버튼 숨기기
       await searchMovies(movieStore.state.page + 1)
     })
   }

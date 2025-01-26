@@ -18,8 +18,4 @@ export const searchMovies = async page => {
     ...store.state.movies,
     ...Search
   ]
-
-  console.log(...Search)
-  console.log(`-----------`)
-  console.log(store.state.movies)
 }

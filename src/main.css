@@ -151,7 +151,7 @@ body {
   left: 0;
   bottom: 0;
   background-color: rgba(14,17,27,.3);
-  backdrop-filter: blur(10px);
+  -webkit-backdrop-filters: blur(10px);
 }
 .movies .movie .info .year {
   color: var(--color-primary);

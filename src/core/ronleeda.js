@@ -37,9 +37,10 @@ function routeRender(routes) {
     }, {})
   history.replaceState(query, '') // (상태, 제목)
 
-  // 2) 현재 라우트 정보를 찾아서 렌더링!
-  const currentRoute = routes.find(route => new RegExp(`${route.path}/?$`).test(hash))
-  routerView.innerHTML = ''
+  // 2) 현재 라우트 정보를 찾아서 렌더링 - 정규표현식 사용
+  const currentRoute = routes
+    .find(route => new RegExp(`${route.path}/?$`).test(hash))
+  routerView.innerHTML = '' // 기존 내용 초기화
   routerView.append(new currentRoute.component().el)
 
   // 3) 화면 출력 후 스크롤 위치 복구!

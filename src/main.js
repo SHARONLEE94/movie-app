@@ -6,8 +6,11 @@ root.append(new App().el)
 
 router()
 
-;(async() => {
-  const res = await fetch('/api/test')
-  const json = res.json()
-  console.log('/api/test/', json)
-})()
+// >>> test를 위해 만들어 놓은 함수
+// 제거 해야 하지만, 공부를 위해 주석처리
+
+// ;(async() => {
+//   const res = await fetch('/api/test')
+//   const json = res.json()
+//   console.log('/api/test/', json)
+// })()

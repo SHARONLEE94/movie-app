@@ -4,7 +4,7 @@
   "discription":"",
   "scripts": {
     "dev": "parcel ./index.html",
-    "build":"parel build ./index.html"
+    "build":"parcel build ./index.html"
   },
   "keywords": [],
   "author": "",

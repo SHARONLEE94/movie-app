@@ -1,17 +1,19 @@
 {
   "name": "movie-app",
   "version": "1.0.0",
-  "discription":"",
+  "discription": "",
   "scripts": {
     "dev": "parcel ./index.html",
-    "build":"parcel build ./index.html"
+    "build": "parcel build ./index.html",
+    "vercel": "vercel dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "parcel": "^2.13.3"
+    "parcel": "^2.13.3",
+    "vercel": "^41.0.1"
   },
   "type": "module"
 }

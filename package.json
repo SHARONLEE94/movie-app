@@ -15,5 +15,8 @@
     "parcel": "^2.13.3",
     "vercel": "^41.0.1"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
 }

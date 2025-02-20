@@ -1,12 +1,5 @@
-# only JavaScript work
+# typeScript version
 
-## ch01. 프로젝트 구성
-### 1. index.html
-- 파비콘 연결
-- reset.css cdn 연결
-- main 스타일시트 연결
-- main 자바스크립트 연결
-### 2. core 파일 연결
-- Component
-- Router
-- Store
+## 데이터를 타입스트립트 interface로 자동 변환시켜 주는 사이트
+**오타 예방**
+- https://transform.tools/json-to-typescript
